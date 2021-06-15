@@ -1,6 +1,6 @@
 # starbucks
  iu
 
-#Projeto frontend iu starkbucks 
+#Projeto frontend iu starkbucks  html + js 
 
 #inciante 
