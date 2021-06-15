@@ -147,13 +147,13 @@ transition: 0.5s;
 .thumb li :hover
 
 {
-transform: translateY(-15px);
+transform: translateY(-25px);
 
 }
 .thumb li img
 
 {
-max-width: 90px;
+max-width: 80px;
 
 }
 
