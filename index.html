@@ -9,7 +9,7 @@
 </head>
 <body>
     <section> 
-
+        <div class="circle"></div>
         <header>
 
             <a href="#" ><img src="images/logo.png" class="logo"></a>
@@ -22,7 +22,7 @@
         </header>
         <div class="content">
             <div class="textbox">
-                <h2>It's not just coffee<br>It's
+                <h2>It's not just coffee It's <br>
                 <span>
                     Starbucks
                 </span>
@@ -37,9 +37,34 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         </div>
         <div class="imgbox">
 
-            <img src="images/img1.png" class="Starbucks">
+            <img src="images/imga.png" class="Starbucks">
         </div>
         </div>
+
+<ul class="thumb">
+    <li>  <img src="images/thumb1.png"  onclick="imgSlider('imga.png'); changeCircleColor('#017143')">  </li>
+    <li>  <img src="images/thumb2.png"  onclick="imgSlider ('imgb.png'); changeCircleColor('#eb7495')">  </li>
+    <li>  <img src="images/thumb3.png"  onclick="imgSlider ('imgc.png'); changeCircleColor('#d752b1')">  </li>
+</ul>
+
+<ul class="social">  
+    <li> <a href="#">   <img src="images/facebook.png">    </a></li>  
+    <li> <a href="#">   <img src="images/instagram.png">    </a></li>  
+    <li> <a href="#">   <img src="images/twitter.png">    </a></li>  
+</ul>
     </section>
+
+    <script type="text/javascript">
+    
+    function imgSlider(anything){
+        document.querySelector('.starbucks').src = anything;
+    }
+
+    function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background =color;
+    }
+
+    </script>
 </body>
 </html>
