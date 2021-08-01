@@ -18,6 +18,8 @@
 
 <h2> Sobre o Projeto</h2>
 
+Link: https://shimaski.github.io/projeto_starbucks/
+
 <p> Projeto de Ui do site do starbucks , feito com HTML5 e CSS puro.</p>
 
 ---
