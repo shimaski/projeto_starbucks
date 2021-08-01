@@ -1,4 +1,4 @@
-
+<img src="https://i.ibb.co/1vP3vb6/Screenshot-6.png" alt="Screenshot-6" align="center" width="990" border="0"></a><br />
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/shimaski/projeto_starbucks?color=%2304D361">
